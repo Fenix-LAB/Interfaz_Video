@@ -13,7 +13,7 @@ while True:
     #     print("No se pudo recibir el marco")
     #     break
     if ret:
-        print(img)
+        # print(img)
         #imgR = cv2.resize(img, (640,640))
         cv2.imshow('Picture', img)
 
